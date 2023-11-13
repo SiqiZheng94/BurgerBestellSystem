@@ -11,6 +11,8 @@ public class Main {
         orderSys.addMenu(menu1);
         orderSys.addMenu(menu2);
         System.out.println(orderSys);
+        System.out.println("===System is up===");
+        orderSys.start();
         System.out.println("===order by id===");
         orderSys.getOrderById(1);
         orderSys.getOrderById(2);
